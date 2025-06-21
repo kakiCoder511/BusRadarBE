@@ -33,12 +33,12 @@ Provide intuitive visual cues for on-the-go users:
 
 Let users share real-time commuter feedback:
 
-- ✅ `POST /api/report` backend endpoint
-- ✅ Users can submit live reports like:
+- `POST /api/report` backend endpoint
+-  Users can submit live reports like:
   - “Got kicked off at Apex Corner in the rain”
   - “Bus stuck in traffic at Roehampton”
   - “Too crowded to board”
-- ✅ Reports saved in **PostgreSQL** (via **Supabase**)
+- Reports saved in **PostgreSQL** (via **Supabase**)
 - 🧭 (Planned) Optional metadata:
   - Start & destination
   - Current location
