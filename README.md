@@ -11,8 +11,8 @@ Currently connected to a Supabase-hosted PostgreSQL database.
 
 Estimate whether a bus is likely to **terminate early** (curtail):
 
-- [ ] Show **risk level**: 🔴 High | 🟠 Medium | 🟢 Low
-- [ ] Risk level calculated using:
+- Show **risk level**: 🔴 High | 🟠 Medium | 🟢 Low
+      Risk level calculated using:
   - 🕰️ Delay time (`expectedArrival - scheduledArrival`)
   - 📊 Route frequency (e.g. high frequency = lower risk)
   - 🌍 (Planned) Known turnback hotspots based on location patterns
@@ -23,9 +23,8 @@ Estimate whether a bus is likely to **terminate early** (curtail):
 
 Provide intuitive visual cues for on-the-go users:
 
-- [ ] Display risk levels using colour-coded badges/icons
-- [ ] Ensure visibility in poor lighting or rainy weather
-- [ ] Designed with a **touch-friendly** interface (React Native)
+  - Display risk levels using colour-coded badges/icons
+  - Designed with a **touch-friendly** interface (React Native)
 
 ---
 
